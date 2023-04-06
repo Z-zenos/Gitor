@@ -1,6 +1,6 @@
 {
   "name": "@zcodev/gitor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gitor Command Line App",
   "main": "index.js",
   "type": "module",
