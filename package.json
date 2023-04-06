@@ -1,6 +1,6 @@
 {
-  "name": "gitor",
-  "version": "1.0.0",
+  "name": "@zcodev/gitor",
+  "version": "1.1.0",
   "description": "Gitor Command Line App",
   "main": "index.js",
   "type": "module",
@@ -15,6 +15,7 @@
   "dependencies": {
     "@octokit/rest": "^19.0.7",
     "axios": "^1.3.4",
+    "boxen": "^7.0.2",
     "chalk": "^5.2.0",
     "clear": "^0.1.0",
     "clui": "^0.3.6",
@@ -25,6 +26,9 @@
     "glob": "^9.3.2",
     "inquirer": "^9.1.5",
     "inquirer-autocomplete-prompt": "^3.0.0",
+    "package-json": "^8.1.0",
+    "semver": "^7.3.8",
+    "semver-diff": "^4.0.0",
     "simple-git": "^3.17.0"
   }
 }

@@ -6,6 +6,11 @@ import clear from "clear";
 import figlet from "figlet";
 import init from "./commands/init.js";
 import readme from "./commands/readme.js";
+import checkUpdate from "./lib/checkUpdate.js";
+
+(async () => {
+  await checkUpdate();
+})();
 
 // Clears the terminal
 clear();
@@ -34,3 +39,5 @@ program.parse(process.argv);
 if(!program.args.length) {
   program.help();
 }
+
+
